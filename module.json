@@ -1,0 +1,18 @@
+{
+    "name": "Banners",
+    "alias": "banners",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Banners\\Providers\\BannersServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "migration": {
+        "seeds": [
+            "Modules\\Banners\\Database\\Seeders\\BannersDatabaseSeeder"
+        ]
+    }
+}

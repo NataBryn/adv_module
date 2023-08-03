@@ -1,0 +1,26 @@
+{
+    "name": "artjoker/banners",
+    "description": "",
+    "authors": [
+        {
+            "name": "Volodymyr Taranenko",
+            "email": "vt2company@gmail.com"
+        }
+    ],
+    "require": {
+        "jenssegers/date": "^4.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Banners\\": ""
+        }
+    }
+}
